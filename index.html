@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About me</title>
+  <meta name="description" content="Blog cá nhân — giới thiệu ngắn, liên hệ và vài dự án." />
+  <link rel = "icon" href = "himari.png" type = "image/x-icon">
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        padding:24px;
+        background:aquamarine;
+        color:#0b1220
+    }
+    .container{
+        max-width:900px;
+        margin:0 auto
+    }
+    header{
+        display:flex;
+        align-items:center;
+        gap:16px
+    }
+    .avatar{
+        width:96px;
+        height:96px;
+        border-radius:8px;
+        background:aquamarine;
+        display:inline-block
+    }
+    h1{margin:0;font-size:24px}
+    p.subtitle{color:#555;margin:6px 0 0}
+    nav{margin-top:12px}
+    nav a{margin-right:12px;color:#0366d6;text-decoration:none}
+    .grid{display:flex;gap:24px;margin-top:20px}
+    .left{width:280px}
+    .card{background:white;padding:20px;border-radius:15px;box-shadow:0 1px 3px rgba(11,18,32,0.08)}
+    section{margin-top:16px}
+    footer{margin-top:28px;color:#666;font-size:14px}
+    @media (max-width:700px){.grid{flex-direction:column}.left{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar" aria-hidden="true"><img src = "cute.png" width = "100px" height = "96px"></div>
+      <div>
+        <h1>Nguyen Minh Tri Tam - Tommy</h1>
+        <p class="subtitle">IT Major • Anime lover • Like coding ? (Not sure)</p>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="left">
+        <div class="card">
+          <h3>A bit about me</h3>
+          <p><strong>Name:</strong> Nguyen Minh Tri Tam (Tommy)</p>
+          <p><strong>Birthday:</strong> 23/9/2010</p>
+          <p><strong>Location:</strong> Ho Chi Minh City, Vietnam</p>
+          <p><strong>School:</strong> VNUHCM - High School for the Gifted</p>
+          <p><strong>Major:</strong> Information Technology</p>
+          <p><strong>Hobbies:</strong> Web, scrolling on Facebook for film reviews, Anime</p>
+        </div>
+        <div class="card" style="margin-top:12px">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML / CSS / JavaScript ( currently working on Javascript and CSS :3 )</li>
+            <li>C++ / Python/ Scratch/ Java</li>
+            <li>Grinding DSA algorithms : Sorting, Searching, Graphs, DP, Tree, String, etc.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right" style="flex:1">
+        <div class="card">
+          <section id="about">
+            <h2>About</h2>
+            <p>Hello! My name is N.M.Tri.Tam, or you can call me Tommy. I'm currently a high school student, with an IT major at VNU-HCM High School for the Gifted</p>
+          </section>
+          <section id="projects">
+            <h2>Projects</h2>
+            <p> I'm trying to master DSA algorithms, for instance :
+                <ul>
+                    <li>Graph algorithms : Dijkstra, Floyd-Warshall, Bellman-Ford, BFS/DFS, Kruskal, etc.</li>
+                    <li>Searching algorithms : Binary Search</li>
+                    <li>Data structure : Hash Map, DSU, etc.</li>
+                    <li>Technique : Dynamic Programming, Greedy, Divide and Conquer, Backtracking, Bitmask,etc.</li>
+                    <li>Trying hard on mastering : Segment Tree, Fenwick Tree, Trie, Suffix Array, etc.</li>
+                </ul>
+            </p>
+            <p> I'm also learning web development and simple AI - Machine learning at school. </p>
+          </section>
+          <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <em>tamnguyen.tommy@gmail.com</em></p>
+            <p>School email : student250929@ptnk.edu.vn</p>
+            <p>Facebook : <em>https://www.facebook.com/yuki.suou.5321733</em></p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2025 - Tommy</p>
+    </footer>
+  </div>
+</body>
+</html>
